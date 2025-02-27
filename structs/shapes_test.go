@@ -42,6 +42,7 @@ func TestArea(t *testing.T) {
 			hasArea: 36.0,
 		},
 	}
+
 	for _, tt := range areaTests {
 		t.Run(tt.name, func(t *testing.T) {
 			got := tt.shape.Area()
